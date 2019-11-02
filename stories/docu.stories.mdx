@@ -1,0 +1,44 @@
+import { Story, Preview, Meta, Props } from '@storybook/addon-docs/blocks';
+import { html } from 'lit-html';
+
+import '../rating-slider.js';
+
+<Meta title="Card|Docs" />
+
+# RatingSlider
+
+A component for...
+
+## Features:
+
+- a
+- b
+- ...
+
+## How to use
+
+### Installation
+
+```bash
+yarn add rating-slider
+```
+
+```js
+import 'rating-slider/rating-slider.js';
+```
+
+<Preview withToolbar>
+  <Story name="Simple" height="220px">
+    {html`
+      <rating-slider></rating-slider>
+    `}
+  </Story>
+</Preview>
+
+## API
+
+<Props of="rating-slider" />
+
+## Playground
+
+Please select "Card Playground" story and open the knobs panel.
